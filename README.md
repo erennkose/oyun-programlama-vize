@@ -28,30 +28,30 @@ Oyun Bağlantısı: https://erenkose75.itch.io/the-coin-crusade
 
 ## Üyelerin Kodladığı Aksiyonlar
 ### Eren Köse - 22360859075
-* Coin nesnenin oyuncunun 10 birim yakınındayken kendi ekseni etrafında dönmesi ve yukarı aşağı haraket etmesi CoinScript.cs: 27
-* Player nesnesinin Coin nesnesiyle teması sonucu Coin nesnesinin toplanması ve Player scriptindeki Coin sayacının arttırılması CoinScript.cs: 32
-* Burger nesnesinin oyuncunun canı 3'den küçükse olduğu yerde büyüyüp küçülmesi BurgerScript.cs: 
-* Player nesnesinin Burger nesnesiyle teması sonucu Burger nesnesinin toplanıp Player scriptindeki Player canının arttırılması BurgerScript.cs: 26, PlayerScript.cs: 77
-* Candy nesnesinin Player tarafından alındıktan sonra 10 saniye boyunca X ve Y eksenlerinde sinüsel haraket (Titreşim) etmesi
-* Player nesnesinin Candy nesnesiyle teması sonucu hızının artması
+* Coin nesnenin oyuncunun 10 birim yakınındayken kendi ekseni etrafında dönmesi ve yukarı aşağı haraket etmesi CoinScript.cs: 22
+* Player nesnesinin Coin nesnesiyle teması sonucu Coin nesnesinin toplanması ve Player scriptindeki Coin sayacının arttırılması CoinScript.cs: 35
+* Burger nesnesinin oyuncunun canı 3'den küçükse olduğu yerde büyüyüp küçülmesi BurgerScript.cs: 26
+* Player nesnesinin Burger nesnesiyle teması sonucu Burger nesnesinin toplanıp Player scriptindeki Player canının arttırılması BurgerScript.cs: 38
+* Candy nesnesinin Player tarafından alındıktan sonra 10 saniye boyunca X ve Y eksenlerinde sinüsel haraket (Titreşim) etmesi CandyScript.cs: 22
+* Player nesnesinin Candy nesnesiyle teması sonucu hızının artması CandyScript.cs: 51
 
 ### Eren Güreli - 222360859016
-* Player nesnesinin A,D veya yön tuşlarıyla X ekseni boyunca haraket etmesi
-* Player nesnesinin Boşluk(Space) tuşu ile zıplaması ve yerçekimi etkisiyle yere düşmesi
-* Player nesnesinin sol click ile saldırırması
-* Enemy nesnesinin hareketleri
-* Enemy nesnesinine çarpıldığında oyuncunun canının azalması
-* Enemy nesnesinin hızının coin sayısı başına 1.015 kat artması
-* Oyuncu nesnesinin Lollipop nesnesiyle teması sonucu oyunun bitmesi
+* Player nesnesinin A,D veya yön tuşlarıyla X ekseni boyunca haraket etmesi PlayerScript.cs: 54
+* Player nesnesinin Boşluk(Space) tuşu ile zıplaması ve yerçekimi etkisiyle yere düşmesi PLayerScript.cs: 64
+* Player nesnesinin sol click ile saldırırması PlayerHitboxScript.cs: 6
+* Enemy nesnesinin hareketleri EnemyScript.cs: 31
+* Enemy nesnesinine çarpıldığında Player'ın canının azalması EnemyScript.cs: 60
+* Enemy nesnesinin hızının coin sayısı başına 1.015 kat artması EnemyScript.cs: 34
+* Oyuncu nesnesinin Lollipop nesnesiyle teması sonucu oyunun bitmesi LollipopScript.cs: 17
 
 ### Mustafa Aykut - 22360859028
-* Kameranın oyuncuyu takip etmesi
-* Candy nesnesi alındıktan sonra 10 saniye boyunca gece - gündüz döngüsünün yapılması
-* Double Jump mekaniği
-* Yeşil zıplama mantarına basılınca oyuncunun havaya fırlaması
-* Player nesnesinin Candy nesnesiyle temasından sonra Candy nesneninin Disable olup 10 saniye sonra yeniden Enable olması
-* Oyuncu nesnesiyle Rabbit nesnesinin teması sonucu Rabbit nesnesinin toplanıp Double Jump özelliğinin aktif edilmesi
-* Rabbit nesnesinin 50 coin toplandıktan sonra olduğu yerde zıplaması ve toplanabilir hâle gelmesi
+* Kameranın oyuncuyu takip etmesi CameraScript.cs: 19
+* Player nesnesi tarafından Candy nesnesi alındıktan sonra 10 saniye boyunca gece - gündüz döngüsünün yapılması PlayerScript.cs: 154
+* Double Jump bonusu aktifse çift zıplama mekaniği PlayerScript.cs: 57
+* Yeşil zıplama mantarına basılınca oyuncunun havaya fırlaması JumpingMushScript.cs: 6
+* Player nesnesinin Candy nesnesiyle temasından sonra Candy nesneninin Disable olup 10 saniye sonra yeniden Enable olması CandyScript.cs: 60
+* Oyuncu nesnesiyle Rabbit nesnesinin teması sonucu Rabbit nesnesinin toplanıp Double Jump özelliğinin aktif edilmesi RabbitScript.cs: 37
+* Rabbit nesnesinin 50 coin toplandıktan sonra olduğu yerde zıplaması ve toplanabilir hâle gelmesi RabbitScript.cs: 24
 
 
 ## Referanslar
