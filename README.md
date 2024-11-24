@@ -37,7 +37,7 @@ Oyun Bağlantısı: https://erenkose75.itch.io/the-coin-crusade
 
 ### Eren Güreli - 222360859016
 * Player nesnesinin A,D veya yön tuşlarıyla X ekseni boyunca haraket etmesi PlayerScript.cs: 54
-* Player nesnesinin Boşluk(Space) tuşu ile zıplaması ve yerçekimi etkisiyle yere düşmesi PLayerScript.cs: 64
+* Player nesnesinin Boşluk(Space) tuşu ile zıplaması ve yerçekimi etkisiyle yere düşmesi PlayerScript.cs: 64
 * Player nesnesinin sol click ile saldırırması PlayerHitboxScript.cs: 6
 * Enemy nesnesinin hareketleri EnemyScript.cs: 31
 * Enemy nesnesinine çarpıldığında Player'ın canının azalması EnemyScript.cs: 60
