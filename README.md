@@ -13,6 +13,8 @@ Oyunumuz; şövalyemiz Aaron'ın önünde bulunan macerada, önüne çıkan coin
 * **Altın Toplama**: 50 adet altına ulaştıktan sonra haritada bulunan tavşanı bulun ve çift zıplamanın tadını çıkarın! Unutmayın haritanın her yerine altınlar saçılmış halde!
 * **Bitiş**: Lolipopa ulaşıp oyunu kazanın!
 
+**Oyun Bağlantısı:** https://erenkose75.itch.io/the-coin-crusade
+
 ### Oyun İçi Nesneler
 ![Burger](./readme-pictures/Collectables/burger.png)
 ![Candy](./readme-pictures/Collectables/candy.png)
@@ -24,7 +26,6 @@ Oyunumuz; şövalyemiz Aaron'ın önünde bulunan macerada, önüne çıkan coin
 ### Oyunumuzun Haritası:
 ![Harita](./readme-pictures/map.png)
 
-Oyun Bağlantısı: https://erenkose75.itch.io/the-coin-crusade
 
 ## Üyelerin Kodladığı Aksiyonlar
 ### Eren Köse - 22360859075
