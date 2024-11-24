@@ -10,7 +10,7 @@ Oyunumuz; şövalyemiz Aaron'ın önünde bulunan macerada, önüne çıkan coin
 * **Saldırı**: Düşmanları yenmek için Sol Tık (Mouse Left Click) ile saldırı yapın.
 * **Düşmanlara Dikkat**: Yol boyunca sizi engellemek için yerleştirilmiş düşmanlar olacak. Düşmanlardan kaçınmak için dikkatli bir şekilde hareket edin ve gerektiğinde sol clickle düşmanı etkisiz hale getirin!
 * **Bonuslar**: Önünüze çıkan şeker (Belli bir süre boyunca hızı arttırır), tavşan (Çift zıplama özelliğini aktive eder), burger (Canınızı 1 arttırır) gibi bonuslarla güçlenin!
-* **Altın Toplama**: 50 adet altına ulaştıktan sonra haritada bulunan tavşanı bulun ve çift zıplamanın tadını çıkarın! Unutmayın haritanın her yerine saçılmış şekilde altınlar bulunmaktadır!
+* **Altın Toplama**: 50 adet altına ulaştıktan sonra haritada bulunan tavşanı bulun ve çift zıplamanın tadını çıkarın! Unutmayın haritanın her yerine altınlar saçılmış halde!
 * **Bitiş**: Lolipopa ulaşıp oyunu kazanın!
 
 ### Oyun İçi Nesneler
@@ -28,7 +28,7 @@ Oyun Bağlantısı: https://erenkose75.itch.io/the-coin-crusade
 
 ## Üyelerin Kodladığı Aksiyonlar
 ### Eren Köse - 22360859075
-* Coin nesnenin oyuncunun 10 birim yakınındayken kendi ekseni etrafında dönmesi ve yukarı aşağı haraket etmesi CoinScript.cs: 25
+* Coin nesnenin oyuncunun 10 birim yakınındayken kendi ekseni etrafında dönmesi ve yukarı aşağı haraket etmesi CoinScript.cs: 27
 * Player nesnesinin Coin nesnesiyle teması sonucu Coin nesnesinin toplanması ve Player scriptindeki Coin sayacının arttırılması CoinScript.cs: 32
 * Burger nesnesinin oyuncunun canı 3'den küçükse olduğu yerde büyüyüp küçülmesi BurgerScript.cs: 
 * Player nesnesinin Burger nesnesiyle teması sonucu Burger nesnesinin toplanıp Player scriptindeki Player canının arttırılması BurgerScript.cs: 26, PlayerScript.cs: 77
