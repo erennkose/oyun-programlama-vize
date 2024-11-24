@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/UIStyle.uss?fileID=7433441132597879392&amp;guid=360f75ffc8155d542bc4a30028031faa&amp;type=3#UIStyle" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; -unity-text-align: upper-left;">
+        <ui:Label text="HP: 3" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Health" class="header" style="align-items: flex-start; position: absolute;" />
+        <ui:Label text="Coin: 0" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Coin" class="header" style="-unity-text-align: lower-right; align-items: flex-start; position: relative;" />
+        <ui:Label text="ÖLDÜN" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Death" focusable="false" enable-rich-text="true" class="header" style="position: relative; align-items: flex-start; justify-content: flex-start; -unity-text-align: middle-center; align-self: auto; left: auto; top: auto; bottom: auto; color: rgb(255, 30, 0); display: none; font-size: 100px;" />
+        <ui:Label tabindex="-1" text="Kazandın" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Win" enable-rich-text="true" style="font-size: 80px; -unity-font-style: bold; -unity-text-align: upper-center; -unity-text-outline-color: rgba(0, 0, 0, 0); color: rgb(27, 190, 27); display: none;" />
+    </ui:VisualElement>
+</ui:UXML>

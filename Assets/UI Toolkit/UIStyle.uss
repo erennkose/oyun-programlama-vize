@@ -1,0 +1,7 @@
+.header {
+    font-size: 50px;
+    -unity-text-align: upper-left;
+    align-items: flex-start;
+    align-self: auto;
+    -unity-font-style: bold;
+}
