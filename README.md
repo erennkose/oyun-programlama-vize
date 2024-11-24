@@ -36,7 +36,7 @@ Oyunumuz; şövalyemiz Aaron'ın önünde bulunan macerada, önüne çıkan coin
 * Candy nesnesinin Player tarafından alındıktan sonra 10 saniye boyunca X ve Y eksenlerinde sinüsel haraket (Titreşim) etmesi CandyScript.cs: 22
 * Player nesnesinin Candy nesnesiyle teması sonucu hızının artması CandyScript.cs: 51
 
-### Eren Güreli - 222360859016
+### Eren Güreli - 22360859016
 * Player nesnesinin A,D veya yön tuşlarıyla X ekseni boyunca haraket etmesi PlayerScript.cs: 54
 * Player nesnesinin Boşluk(Space) tuşu ile zıplaması ve yerçekimi etkisiyle yere düşmesi PlayerScript.cs: 64
 * Player nesnesinin sol click ile saldırırması PlayerHitboxScript.cs: 6
